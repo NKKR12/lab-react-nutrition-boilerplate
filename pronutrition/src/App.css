@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.search-comp{
+  margin-bottom: 2vw;
+}
+.foodbox-main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  background-color: #9292923c;
+  padding: 1vw 1vw;
+  margin-bottom: 1vw;
+  border-radius: 20px;
+}
+.foodbox-main-left{
+  display: flex;
+  width: 40vw;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff3c;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.foodbox-main-left>img{
+  width: 8vh;
+  border-radius: 5px;
+}
+.foodbox-main-right{
+  display: flex;
+  align-items: center;
+}
+/* #reset{
+  padding: 5px 10px;
+} */
+input{
+  height: 25px;
+  border-radius: 10px;
+  border: 1px 1px solid white;
+}
+.search-input{
+  width: 30vw;
+  height: 3vw;
+}
